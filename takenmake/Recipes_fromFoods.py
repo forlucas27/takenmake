@@ -2,8 +2,7 @@ def recipes_from_FoodList(test_labels):
     import requests
     import json
 
-    # 'd3b10f5b15164d13ba2f5e53b9c25a32'
-    API_KEY = "4374be7cc066468a800c54923186e141"
+    API_KEY = '{your API key here}'
 
     fridge = test_labels  # list(items1)
 
@@ -62,8 +61,8 @@ def recipes_from_FoodList(test_labels):
     # So we use the google api to search the title name and get the recipe link
 
     from googleapiclient.discovery import build
-    my_api_key = 'AIzaSyDfsCsCcudeIITL6Qb8xKaV6p2uBWRgjmA'
-    my_cse_id = "d7bb816fcf044610b"
+    my_api_key = '{your API keys here}'
+    my_cse_id = '{your API keys here}'
 
     def google_search(search_term, api_key, cse_id, **kwargs):
         service = build("customsearch", "v1", developerKey=api_key)
