@@ -1,5 +1,5 @@
-# takenmake
-## RecipeSuggestions
+# Take N Make
+### Recipe Suggestions
 
 This program takes an input of an image of the interior of a refridgerator and suggests 
 a recipe for you based on the contents of your fridge. 
